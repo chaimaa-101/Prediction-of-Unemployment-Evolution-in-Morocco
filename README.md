@@ -14,9 +14,5 @@ The analysis is based on official data from the Haut-Commissariat au Plan (HCP),
     * **Support Vector Machine (SVM)**
     * **Random Forest Regressor**
 
-## Data Preprocessing
-* Validation of data quality (no missing values detected).
-* Cleaning and standardization of column names.
-* Separation of data into training and testing sets by quarter.
-* Normalization and statistical exploration (mean, variance, correlation matrix, visualizations).
+## ✨ Happy Learning!
 
