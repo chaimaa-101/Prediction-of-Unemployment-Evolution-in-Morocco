@@ -3,7 +3,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error,r2_score
 import matplotlib.pyplot as plt
 # Read the Excel file
-chomage = pd.read_excel("dataset.xlsx", index_col="effectif de trimestre")
+chomage = pd.read_excel("Dataset.xlsx", index_col="effectif de trimestre")
 # Clean up column names by removing extra spaces
 chomage.columns = chomage.columns.str.strip()
 # Define the predictors and target variable

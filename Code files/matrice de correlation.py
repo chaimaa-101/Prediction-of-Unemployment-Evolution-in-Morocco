@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Lire le fichier Excel depuis le chemin local
-df = pd.read_excel("C:/Users/Chaymae/Desktop/bd2.xlsx", index_col='trimestres')
+df = pd.read_excel("Dataset.xlsx", index_col='trimestres')
 
 # Calculer la matrice de corrélation
 correlation_matrix = df.corr()

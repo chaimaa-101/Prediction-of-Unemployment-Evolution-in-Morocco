@@ -1,7 +1,6 @@
 import pandas as pd
 
-# Remplacez "C:/Users/Chaymae/Desktop/bd2.xlsx" par le chemin réel de votre fichier Excel
-url_excel = "C:/Users/Chaymae/Desktop/bd2.xlsx"
+url_excel = "Dataset.xlsx"
 
 # Lire le fichier Excel depuis le chemin local
 df = pd.read_excel(url_excel, index_col='trimestres')
@@ -13,5 +12,4 @@ descriptive_stats = df.describe(include="all")
 descriptive_stats.insert(0, 'Statistique', descriptive_stats.index)
 
 # Sauvegarder les statistiques descriptives dans un fichier Excel
-# Assurez-vous de spécifier le chemin correct pour la sauvegarde
-descriptive_stats.to_excel("C:/Users/Chaymae/Desktop/munaaa.xlsx", index=False)
+descriptive_stats.to_excel("Path.xlsx", index=False)

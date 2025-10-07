@@ -3,7 +3,7 @@ from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_absolute_error
 import matplotlib.pyplot as plt
 # Read the Excel file
-chomage = pd.read_excel("dataset.xlsx", index_col="effectif de trimestre")
+chomage = pd.read_excel("Dataset.xlsx", index_col="effectif de trimestre")
 
 # Clean up column names by removing extra spaces
 chomage.columns = chomage.columns.str.strip()

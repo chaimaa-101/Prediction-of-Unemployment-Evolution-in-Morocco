@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Remplacez "URL_DU_FICHIER_EXCEL" par le lien direct vers votre fichier Excel
-url_excel = "C:/Users/Chaymae/Desktop/bd2.xlsx"
+url_excel = "Dataset.xlsx"
 
 # Lire le fichier Excel depuis le lien
 df = pd.read_excel(url_excel, index_col='trimestres')
